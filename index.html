@@ -4,34 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>World Clock</h1>
+      <header>
+        <h1>World Clock</h1>
+      </header>
       <select id="select-city">
         Select a city...>
         <option value="">Select a city...</option>
-        <option value="New York">New York</option>
-        <option value="Sydney">Sydney</option>
-        <option value="London">London</option>
+        <option value="new-york">New York</option>
+        <option value="sydney">Sydney</option>
+        <option value="paris">Paris</option>
       </select>
-      <div class="city-time">
-        <div>
-          <h2>Oslo</h2>
-          <p class="time-oslo">8:16 pm</p>
-          <p class="date-oslo">24.05.2023</p>
+      <div>
+        <div class="city-time">
+          <div>
+            <h2>London</h2>
+            <p class="date">24.05.2023</p>
+          </div>
+          <p class="time">8:16 PM</p>
         </div>
-        <div>
-          <h2>Los Angeles</h2>
-          <p class="time-la">8:16 pm</p>
-          <p class="date-la">24.05.2023</p>
+        <div class="city-time">
+          <div>
+            <h2>Los Angeles</h2>
+            <p class="date">24.05.2023</p>
+          </div>
+          <p class="time">8:16 PM</p>
         </div>
-        <div>
-          <h2>Tokyo</h2>
-          <p class="time-tokyo">8:16 pm</p>
-          <p class="date-tokyo">24.05.2023</p>
+        <div class="city-time">
+          <div>
+            <h2>Tokyo</h2>
+            <p class="date">24.05.2023</p>
+          </div>
+          <p class="time">8:16 PM</p>
         </div>
       </div>
     </div>

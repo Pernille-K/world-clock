@@ -1,7 +1,47 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/elegant-abstract-gold-background-with-shiny-elements_23-2148827899.jpg?w=2000");
+  font-family: "Playfair", serif;
+}
+
+header {
+  padding: 10px;
+}
+
 h1 {
   text-align: center;
 }
 
+select {
+  width: 75%;
+  font-size: 15px;
+  border-radius: 0;
+}
+
+.container {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 10px;
+  border: solid white;
+  background-color: white;
+}
+
+.city-time {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.time {
+  font-size: 36px;
+}
+
+date {
+  font-size: 15px;
+}
+
 footer {
   text-align: center;
+  padding: 10px;
 }
