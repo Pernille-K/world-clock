@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://img.freepik.com/free-vector/elegant-abstract-gold-background-with-shiny-elements_23-2148827899.jpg?w=2000");
+  background-color: #ddbc6f;
   font-family: "Playfair", serif;
 }
 
@@ -11,34 +11,52 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin: 0 0 5px;
+  padding-top: 36px;
+  font-size: 26px;
+}
+
 select {
-  width: 75%;
+  width: 100%;
   font-size: 15px;
-  border-radius: 0;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .container {
+  background-image: url("https://img.freepik.com/free-vector/realistic-luxury-background_52683-83540.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   display: block;
   margin: 0 auto;
   max-width: 500px;
   padding: 10px;
-  border: solid white;
-  background-color: white;
+  border-radius: 20px;
+  box-shadow: 8px 4px 2px 1px #bf9443;
 }
 
-.city-time {
+.city {
   display: flex;
   justify-content: space-between;
-  padding: 5px;
+  padding: 5px 0;
 }
 
 .time {
   font-size: 36px;
 }
 
-date {
-  font-size: 15px;
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.date {
+  font-size: 19px;
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 footer {
