@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -24,14 +26,14 @@
         </select>
       </div>
       <div>
-        <div class="city">
+        <div class="city" id="los-angeles">
           <div>
             <h2>Los Angeles</h2>
             <p class="date">24.05.2023</p>
           </div>
           <p class="time">8:16:25 <small>PM</small></p>
         </div>
-        <div class="city">
+        <div class="city" id="london">
           <div>
             <h2>London</h2>
             <p class="date">24.05.2023</p>
@@ -39,7 +41,7 @@
           <p class="time">8:16:25 <small>PM</small></p>
         </div>
 
-        <div class="city">
+        <div class="city" id="tokyo">
           <div>
             <h2>Tokyo</h2>
             <p class="date">24.05.2023</p>
