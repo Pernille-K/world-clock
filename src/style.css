@@ -1,6 +1,8 @@
 body {
-  background-color: #ddbc6f;
-  font-family: "Playfair", serif;
+  font-family: sans-serif;
+  background-image: url("https://wallpaperaccess.com/full/3816377.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -18,23 +20,27 @@ h2 {
 }
 
 select {
+  position: relative;
   width: 100%;
   font-size: 15px;
   border-radius: 20px;
   padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+option {
+  background-color: transparent;
 }
 
 .container {
-  background-image: url("https://img.freepik.com/free-vector/realistic-luxury-background_52683-83540.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
   display: block;
   margin: 0 auto;
   max-width: 500px;
   padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
-  box-shadow: 8px 4px 2px 1px #bf9443;
 }
 
 .city {

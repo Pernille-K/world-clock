@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap"
-      rel="stylesheet"
-    />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -18,21 +14,16 @@
       <header>
         <h1>World Clock</h1>
       </header>
-      <select id="select-city">
-        Select a city...>
-        <option value="">Select a city...</option>
-        <option value="new-york">New York</option>
-        <option value="sydney">Sydney</option>
-        <option value="paris">Paris</option>
-      </select>
+      <div class="custom-select">
+        <select id="select-city">
+          Select a city...>
+          <option value="">Select a city...</option>
+          <option value="new-york">New York</option>
+          <option value="sydney">Sydney</option>
+          <option value="paris">Paris</option>
+        </select>
+      </div>
       <div>
-        <div class="city">
-          <div>
-            <h2>London</h2>
-            <p class="date">24.05.2023</p>
-          </div>
-          <p class="time">8:16:25 <small>PM</small></p>
-        </div>
         <div class="city">
           <div>
             <h2>Los Angeles</h2>
@@ -40,6 +31,14 @@
           </div>
           <p class="time">8:16:25 <small>PM</small></p>
         </div>
+        <div class="city">
+          <div>
+            <h2>London</h2>
+            <p class="date">24.05.2023</p>
+          </div>
+          <p class="time">8:16:25 <small>PM</small></p>
+        </div>
+
         <div class="city">
           <div>
             <h2>Tokyo</h2>
